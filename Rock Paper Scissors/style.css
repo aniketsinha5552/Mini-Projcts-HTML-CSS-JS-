@@ -1,0 +1,23 @@
+button{
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    background-color: rgb(239, 251, 251);
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+button:hover{
+    background-color: gray;
+}
+
+body{
+    text-align: center;
+}
+
+#output{
+    height: 200px;
+    width: 200px;
+    background-color:aliceblue;
+}
+
