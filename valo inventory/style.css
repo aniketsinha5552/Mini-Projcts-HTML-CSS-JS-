@@ -1,6 +1,7 @@
 #inventory{
     display: flex;
-    width: 100%
+    width: 1000px;
+    margin-left: 250px;
     
 }
 
@@ -8,54 +9,76 @@
 
     height: 800px;
     flex: 0.17;
-    background-color:aqua;
+    background-color:transparent;
     margin-left: 10px;
     margin-right: 10px;
-    margin-top: 10px;
+    
     margin-bottom: 10px;
+    
 }
 #smgs{
     height: 600px;
     flex: 0.22;
-    background-color:aqua;
+    background-color:transparent;
     margin-left: 10px;
     margin-right: 10px;
-    margin-top: 10px;
+    
     margin-bottom: 10px;
 }
 
 #rifles{
     height: 600px;
     flex: 0.28;
-    background-color:aqua;
+    background-color:transparent;
     margin-left: 10px;
     margin-right: 10px;
-    margin-top: 10px;
+    
     margin-bottom: 10px;
 }
 
 #sniper{
     height: 800px;
     flex: 0.33;
-    background-color:aqua;
+    background-color:transparent;
     margin-left: 10px;
     margin-right: 10px;
-    margin-top: 10px;
+    
     margin-bottom: 10px;
 }
 
 
 .pistol{
     height: 20%;
-    width: 95%;
-    background-color:whitesmoke;
+    width: 100%;
+    
+    background-color: transparent;
     margin-top: 2px;
 }
 
 .pistol2{
-    height: 25%;
-    width: 95%;
-    background-color:whitesmoke;
+    height: 160px;
+    width: 100%;
+    background-color:transparent;
     margin-top: 2px;
+}
+
+img{
+    height: 60%;
+    width: 100%;
+}
+
+#res{
+    text-align: center;
+    
+    font-size: larger;
+    background-color: transparent;
+    margin-bottom: 100px;
+}
+
+body{
+    background-image: url("https://wallpaperaccess.com/full/449895.jpg");
+    background-repeat: no-repeat;
+    background-size: auto;
+   
 }
 

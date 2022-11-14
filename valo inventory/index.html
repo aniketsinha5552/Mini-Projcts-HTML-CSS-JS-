@@ -9,75 +9,220 @@
 </head>
 <body>
     <h1>Valorant Inventory Calculator</h1>
-    <div id="inventory">
+    <div id="outer">
+        <div id="inventory">
+
+            <!-- pistols -->
        
-        <div id='sidearms'>
-         Sidearms
-         <div class="pistol">
-            <form>
-                <select name="type" id="skin">
-                    <option value="default">default</option>
-                    <option value="premium">premium</option>
-                </select>
-            </form>
-            <img src="classic.png" alt=""  />
-            <P>Classic</P>
-          
-        </div>
-         <div class="pistol">
-            <img src="shorty.png" alt=""  />Shorty</div>
-         <div class="pistol">
-            <img src="frenzy.png" alt=""  />Frenzy</div>
-         <div class="pistol">
-            <img src="ghost.png" alt=""  />Ghost</div>
-         <div class="pistol">
-            <img src="sheriff.png" alt=""  />Sheriff</div>
-        </div>
-    
-        <div id="smgs">
-            SMGS
-            
-                <div class="pistol2">
-                    <img src="stinger.png" alt=""  />Stinger</div>
-                <div class="pistol2">
-                    <img src="spectre.png" alt=""  />Spectre</div>
-                <div class="pistol2">
-                    <img src="bucky.png" alt=""  />Bucky</div>
-                <div class="pistol2">
-                    <img src="judge.png" alt=""  />Judge</div>
-                
-               
-        </div>
-        <div id="rifles">
-            Rifles
-            
-                <div class="pistol2">
-                    <img src="bulldog.png" alt=""  />Bulldog</div>
-                <div class="pistol2">
-                    <img src="guardian.png" alt=""  />Guardian</div>
-                <div class="pistol2">
-                    <img src="phantom.png" alt=""  />Phantom</div>
-                <div class="pistol2">
-                    <img src="vandal.png" alt=""  />Vandal</div>
-                
-               
-        </div>
-        <div id="sniper">
-            Sniper
-            
-                <div class="pistol">
-                    <img src="marshal.png" alt=""  />Marshal</div>
-                <div class="pistol">
-                    <img src="operator.png" alt=""  />Operator</div>
-                <div class="pistol">
-                    <img src="ares.png" alt=""  />Ares</div>
-                <div class="pistol">
-                    <img src="odin.png" alt=""  />Odin</div>
-                <div class="pistol">
-                    <img src="melee.png" alt=""  />Melee</div>
-               </div>
-        </div>
+            <div id='sidearms'>
+             <h2>Sidearms</h2>
+
+             <!-- Classic -->
+             <div class="pistol">
+                <form id="f1">
+                    <select name="classic" id="skin">
+                        <option value="default">default</option>
+                        <option value="premium">premium</option>
+                    </select>
+                    
+                </form>
+                <img id="classic"src="classic.png" alt=""  />
+                Classic
+              
+            </div>
+
+            <!-- Shorty -->
+             <div class="pistol">
+                <form>
+                    <select name="shorty" id="skin">
+                        <option value="default">default</option>
+                        <option value="premium">premium</option>
+                    </select>
+                </form>
+                <img id="shorty" src="shorty.png" alt=""  />Shorty</div>
+
+
+            <!-- Frenzy -->
+             <div class="pistol">
+                <form>
+                    <select name="frenzy" id="skin">
+                        <option value="default">default</option>
+                        <option value="premium">premium</option>
+                    </select>
+                </form>
+                <img src="frenzy.png" alt="" id="frenzy" />Frenzy</div>
+
+            <!-- Ghost -->
+             <div class="pistol">
+                <form>
+                    <select name="ghost" id="skin">
+                        <option value="default">default</option>
+                        <option value="premium">premium</option>
+                    </select>
+                </form>
+                <img src="ghost.png" alt="" id="ghost" />Ghost</div>
+
+            <!-- Sheriff -->
+             <div class="pistol">
+                <form>
+                    <select name="sheriff" id="skin">
+                        <option value="default">default</option>
+                        <option value="premium">premium</option>
+                    </select>
+                </form>
+                <img src="sheriff.png" alt="" id="sheriff" />Sheriff</div>
+            </div>
         
+    
+            <!-- SMGS -->
+            <div id="smgs">
+                <h2>SMGS</h2>
+                <!-- Stinger -->
+                    <div class="pistol2">
+                        <form>
+                            <select name="stinger" id="skin">
+                                <option value="default">default</option>
+                                <option value="premium">premium</option>
+                            </select>
+                        </form>
+                        <img src="stinger.png" alt="" id="stinger"  />Stinger</div>
+
+                <!-- Spectre -->
+                    <div class="pistol2">
+                        <form>
+                            <select name="spectre" id="skin">
+                                <option value="default">default</option>
+                                <option value="premium">premium</option>
+                            </select>
+                        </form>
+                        <img src="spectre.png" alt="" id="spectre" />Spectre</div>
+                <!-- Bucky -->
+                    <div class="pistol2">
+                        <form>
+                            <select name="bucky" id="skin">
+                                <option value="default">default</option>
+                                <option value="premium">premium</option>
+                            </select>
+                        </form>
+                        <img src="bucky.png" alt="" id="bucky"  />Bucky</div>
+                <!-- Judge -->
+                    <div class="pistol2">
+                        <form>
+                            <select name="judge" id="skin">
+                                <option value="default">default</option>
+                                <option value="premium">premium</option>
+                            </select>
+                        </form>
+                        <img src="judge.png" alt="" id="judge"  />Judge</div>
+                    
+                   
+            </div>
+
+            <!-- Rifles -->
+            <div id="rifles">
+                 <h2>Rifles</h2>
+
+            <!-- Bulldog -->
+                    <div class="pistol2">
+                        <form>
+                            <select name="bulldog" id="skin">
+                                <option value="default">default</option>
+                                <option value="premium">premium</option>
+                            </select>
+                        </form>
+                        <img src="bulldog.png" alt="" id="bulldog" />Bulldog</div>
+
+            <!-- Guardian -->
+                    <div class="pistol2">
+                        <form>
+                            <select name="guardian" id="skin">
+                                <option value="default">default</option>
+                                <option value="premium">premium</option>
+                            </select>
+                        </form>
+                        <img src="guardian.png" alt="" id="guardian" />Guardian</div>
+            <!-- Phantom -->
+                    <div class="pistol2">
+                        <form>
+                            <select name="phantom" id="skin">
+                                <option value="default">default</option>
+                                <option value="premium">premium</option>
+                            </select>
+                        </form>
+                        <img src="phantom.png" alt="" id="phantom" />Phantom</div>
+            <!-- Vandal -->
+                    <div class="pistol2">
+                        <form>
+                            <select name="vandal" id="skin">
+                                <option value="default">default</option>
+                                <option value="premium">premium</option>
+                            </select>
+                        </form>
+                        <img src="vandal.png" alt="" id="vandal" />Vandal</div>
+                    
+                   
+            </div>
+
+             <!-- snipers and melee -->
+            <div id="sniper">
+                <h2>Sniper</h2>
+          
+            <!-- Marshal -->
+                    <div class="pistol">
+                        <form>
+                            <select name="marshal" id="skin">
+                                <option value="default">default</option>
+                                <option value="premium">premium</option>
+                            </select>
+                        </form>
+                        <img src="marshal.png" alt="" id="marshal" />Marshal</div>
+            <!-- Operator -->
+                    <div class="pistol">
+                        <form>
+                            <select name="operator" id="skin">
+                                <option value="default">default</option>
+                                <option value="premium">premium</option>
+                            </select>
+                        </form>
+                        <img src="operator.png" alt="" id="operator"  />Operator</div>
+            <!-- Ares -->
+                    <div class="pistol">
+                        <form>
+                            <select name="ares" id="skin">
+                                <option value="default">default</option>
+                                <option value="premium">premium</option>
+                            </select>
+                        </form>
+                        <img src="ares.png" alt="" id="ares"  />Ares</div>
+            <!-- Odin -->
+                    <div class="pistol">
+                        <form>
+                            <select name="odin" id="skin">
+                                <option value="default">default</option>
+                                <option value="premium">premium</option>
+                            </select>
+                        </form>
+                        <img src="odin.png" alt="" id="odin" />Odin</div>
+            <!-- Melee -->
+                    <div class="pistol">
+                        <form>
+                            <select name="melee" id="skin">
+                                <option value="default">default</option>
+                                <option value="premium">premium</option>
+                            </select>
+                        </form>
+                        <img src="melee.png" alt="" id="melee"  />Melee</div>
+                   </div>
+            </div>
+            
+     <!--  Total Inventory cost-->
+        </div>
+        <div id="res">
+            <button id="calc">calculate</button>
+            <p>Total Inventory Cost</p>
+            <div id="total">0</div>
+           
+        </div>
     </div>
     
    
